@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+
+    <style type="text/css">
+a:link {
+    text-decoration: none;
+    color: grey;
+}
+
+a:visited {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: grey;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    border-radius: 6px;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 2px;
+}
+
+/*<![CDATA[*/
+    body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+    }
+
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
+    position: relative;
+    opacity: 0.85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    }
+    .bgimg-1 {
+    background-image: url("resources/1.png");
+    min-height: 100%;
+    }
+
+    .bgimg-2 {
+    background-image: url("resources/extra.gif");
+    min-height: 400px;
+    }
+
+    .bgimg-3 {
+    background-image: url("resources/news.png");
+    min-height: 400px;
+    }
+    .bgimg-4 {
+    background-image: url("resources/blog.png");
+    min-height: 500px;
+    }
+
+    .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    }
+
+    .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    }
+
+    h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+    }
+
+    /* Turn off parallax scrolling for tablets and phones */
+    @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, bgimg-4 {
+        background-attachment: scroll;
+    }
+    }
+    /*]]>*/
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <div class="bgimg-1">
+      <div class="caption">
+       <p>
+        <span class="border">TREETOP2016</span>
+       </p><p>
+	<button class="button button1">Visit Me on Scratch!</button>
+       </p>
+      </div>
+    </div>
+    <div style=
+    "color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <h3 style="text-align:center;">
+        About Me
+      </h3>
+<center>
+      <p>
+YOU WRITE IN HERE WHAT YOU WANT
+</p></center>
+<p>
+Quick Tips:</p>
+<p>
+to link a website: .a href src="website/page"> text </a. (add a < and a > to where the periods are)</p>
+<p>
+to make a header: .h1> .h2> .h3>, etc. until .h6>
+</p>
+      </p>
+    </div>
+    <div class="bgimg-2">
+      <div class="caption">
+        <span class="border" style=
+        "background-color:transparent;font-size:25px;color: #f7f7f7;">
+        This is an extra space, you can delete it if you want :)</span>
+      </div>
+    </div>
+    <div style="position:relative;">
+      <div style=
+      "color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+      <p>
+You can add more information here whether it be new projects, sneak peeks, extras, or cool blog posts
+        </p>
+      </div>
+    </div>
+    <div class="bgimg-3">
+      <div class="caption">
+        <span class="border" style=
+        "background-color:transparent;font-size:25px;color: #000000;">
+        News and Updates:</span>
+	<div class="caption">
+	<p> Add the latest news or link this to other things, the picture can be updated by replacing it with a different picture called 'news.png'</p>
+	</div>
+      </div>
+    </div>
+    <div style="position:relative;">
+      <div style=
+      "color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+      <p>
+          IF YOU NEED HELP WITH ANYTHING YOU CAN CONTACT ME AT CALLOWAYSUTTON7572@GMAIL.COM OR BY ASKING ANOTHER TEAM MEMBER,
+          HAVE FUN!
+        </p>
+      </div>
+    </div>
+    <div class="bgimg-4">
+      <div class="caption">
+        <span class="border">Visit my <a href="index.php">Blog!</a></span>
+      </div>
+    </div>
+  </body>
+</html>
