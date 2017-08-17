@@ -17,4 +17,5 @@ if ($_GET["err"] == "3") {
    <form action="verify.php" method="post">
    Username: <input type="text" name="username"><br>
    Password: <input type="password" name="pass0"><br>
-   <input type="submit">
+   <input type="submit"><br>
+     <div class="g-recaptcha" data-sitekey="6LfNGi0UAAAAAOv-XXKkbpxh7uamIbWD-zV3j5Zp"></div>
