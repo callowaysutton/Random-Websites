@@ -5,6 +5,7 @@ session_start();
  ?>
 <head>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src='https://www.google.com/recaptcha/api.js'></script>
   <link rel="stylesheet" type="text/css" href="basic.css?<?php echo date('l jS \of F Y h:i:s A'); ?>">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.6.4/showdown.min.js"></script>
   <title>Blog</title>
